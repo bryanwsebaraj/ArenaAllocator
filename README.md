@@ -10,5 +10,8 @@ A thread-safe arena memory allocator.
 
 
 ## To-Do
+- [ ] Finish building prelim version of allocator
+- [ ] Publish initial release
+- [ ] Edit CMake and memOS for Windows Compatibility 
 
 
