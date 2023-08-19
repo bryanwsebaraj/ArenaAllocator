@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.27)
 
-add_library(ArenaAllocator SHARED memOS.cpp memUtil.cpp)
+add_library(ArenaAllocator SHARED memOS.cpp memUtil.cpp memArena.cpp)
 
 target_compile_options(ArenaAllocator PRIVATE -fPIC)
 

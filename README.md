@@ -1,6 +1,6 @@
 # Arena Allocator
 
-A thread-safe arena memory allocator. 
+An aligned, thread-safe arena memory allocator. 
 
 
 ## Features
