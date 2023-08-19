@@ -84,7 +84,7 @@ void *arenaallocator::AllocBlock(Pool *pool) {
     pool->block = (void *) *((uintptr_t *) pool->block);
     if (pool->block == nullptr && pool->freeBlocks > 0) {
         pool->block = ((unsigned char *) block) + pool->blocksz;
-       
+        *((uintptr_t *) pool->block) = 0x0;
     }
 
     return block;

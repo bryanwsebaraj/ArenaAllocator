@@ -11,6 +11,7 @@ An aligned, thread-safe arena memory allocator.
 
 ## To-Do
 - [ ] Finish building prelim version of allocator
+- [ ] Brief refactor to follow C++ conventions
 - [ ] Publish initial release
 - [ ] Edit CMake and memOS for Windows Compatibility 
 
